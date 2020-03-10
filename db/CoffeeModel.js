@@ -21,12 +21,12 @@ const orderSchema = new Schema({
     require: true
   },
   order: {
-    type: String,
-    required: true
+    type: String
+    // required: true
   },
   date: {
-    type: Date,
-    require: true
+    type: Date
+    // require: true
   }
 });
 
